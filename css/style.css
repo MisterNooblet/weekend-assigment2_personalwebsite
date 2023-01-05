@@ -198,7 +198,7 @@ nav ul li a {
 }
 
 .pagecontent .image {
-  background-color: antiquewhite;
+  background: url("/assets/images/face.png") center center/cover no-repeat;
 }
 
 .aboutmetext {
@@ -213,6 +213,7 @@ nav ul li a {
   padding: 1rem;
   font-weight: bold;
   border-radius: 1rem;
+  border: NONE;
   color: white;
   cursor: pointer;
 }
