@@ -246,3 +246,22 @@ nav ul li a {
 #progress {
   grid-area: 1 / 2 / 2 / 3;
 }
+
+.infoleftresume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.inforightresume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.infoleftresume i,
+.inforightresume i {
+  margin-right: 3rem;
+}
