@@ -8,7 +8,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   color: white;
 }
@@ -25,6 +25,11 @@ body {
 }
 .font-huge {
   font-size: 6rem;
+}
+
+.font-enormous {
+  font-size: 9rem;
+  line-height: 8.5rem;
 }
 
 .bg-dark {
@@ -127,6 +132,47 @@ nav ul li a {
 }
 
 .container {
+  padding: 7.5vh 15vw;
   width: 100vw;
   height: 100vh;
+}
+
+.sectiontitle {
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.sectiontitle > * {
+  position: absolute;
+}
+
+.titlefront {
+  z-index: 2;
+  position: relative;
+}
+
+.titlefront::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  border-bottom: #103c6b 2px solid;
+}
+
+.titlefront::before {
+  content: "";
+  top: 0;
+  left: 20%;
+  position: absolute;
+  width: 60%;
+  height: 120%;
+  border-bottom: #3cb35a 2px solid;
+  z-index: 5;
+}
+
+.titlebg {
+  opacity: 0.05;
 }
