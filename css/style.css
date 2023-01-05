@@ -265,3 +265,52 @@ nav ul li a {
 .inforightresume i {
   margin-right: 3rem;
 }
+
+.resumecontent p,
+.resumecontent h3 {
+  margin-bottom: 1.5rem;
+}
+
+.resumecontent {
+  padding-left: 2rem;
+  position: relative;
+}
+.resumecontent::before {
+  content: "";
+  position: absolute;
+  height: 0.8rem;
+  width: 0.8rem;
+  top: 0;
+  left: -2rem;
+  background-color: darkblue;
+  border-radius: 20%;
+  margin-left: 2rem;
+  border: gray 2px solid;
+  z-index: 2;
+  transition: all 1s ease-in-out;
+}
+.resumecontent::after {
+  content: "";
+  position: absolute;
+  height: 200%;
+  width: 0.1rem;
+  top: 0;
+  left: -2rem;
+  background-color: gray;
+  margin-left: 2.5rem;
+}
+.resumecontent.last::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0.1rem;
+  top: 0;
+  left: -2rem;
+  background-color: gray;
+  margin-left: 2.5rem;
+}
+.resumecontent:hover:before {
+  content: "";
+  background-color: #3cb35a;
+  border-color: #3cb35a;
+}
