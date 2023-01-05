@@ -232,5 +232,17 @@ nav ul li a {
 }
 
 .about-me-lists {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+
+#languages {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#progress {
+  grid-area: 1 / 2 / 2 / 3;
 }

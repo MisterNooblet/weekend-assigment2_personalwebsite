@@ -1,0 +1,33 @@
+.progbar {
+  height: 1.9rem;
+  width: 100%;
+  background-color: gray;
+  position: relative;
+}
+.inter:before {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 1.9rem;
+  width: 50%;
+  background-color: yellow;
+  position: absolute;
+}
+.beginner:before {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 1.9rem;
+  width: 25%;
+  background-color: green;
+  position: absolute;
+}
+.null:before {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 1.9rem;
+  width: 5%;
+  background-color: red;
+  position: absolute;
+}
