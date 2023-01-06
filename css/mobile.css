@@ -43,10 +43,10 @@ nav {
   width: 100vw;
   padding: 0 10vw;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-row-gap: 30px;
   color: white;
   z-index: 15;
 }
@@ -69,7 +69,7 @@ nav:after {
   width: 4.8rem;
 }
 nav ul {
-  display: none;
+  display: flex;
   list-style: none;
   justify-content: center;
 }
