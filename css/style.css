@@ -13,7 +13,6 @@ html {
   color: white;
 }
 body {
-  height: 400vh;
 }
 
 body::-webkit-scrollbar {
@@ -341,4 +340,88 @@ nav ul li a {
   grid-column-gap: 30px;
   grid-row-gap: 0px;
   grid-area: 1 / 2 / 2 / 3;
+}
+.contactdetails {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 30px;
+}
+.contactblock {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.contacticon i {
+  margin-right: 5rem;
+  position: relative;
+  font-size: 2.5rem;
+  z-index: 5;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.contacticon i::after {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: -1.4rem;
+  left: -1.4rem;
+  background-color: #062444;
+  border: 1px solid #103c6b;
+  border-radius: 10%;
+  z-index: -1;
+  transition: all 1s ease-in-out;
+}
+
+.contacticon i:hover:after {
+  border: 1px solid #3cb35a;
+}
+
+.contactform {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr) 7fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 30px;
+  position: relative;
+  width: 100%;
+}
+
+input,
+textarea {
+  position: relative;
+  background-color: #062444;
+  border: 1px solid #103c6b;
+  border-radius: 0.5rem;
+  color: white;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #3cb35a;
+}
+
+footer {
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+  background-color: #062444;
+  position: relative;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer:after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  left: 20vw;
+  border-top: #3cb35a 1px solid;
 }
