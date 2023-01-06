@@ -313,10 +313,10 @@ nav ul li a {
 
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 0px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 30px;
 }
 
 .cardsleft {
@@ -325,7 +325,6 @@ nav ul li a {
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 0px;
-  grid-area: 1 / 1 / 2 / 2;
 }
 
 .cardsright {
@@ -334,7 +333,6 @@ nav ul li a {
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 0px;
-  grid-area: 1 / 2 / 2 / 3;
 }
 .contactdetails {
   display: grid;
