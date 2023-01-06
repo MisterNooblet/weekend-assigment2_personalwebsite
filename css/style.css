@@ -95,6 +95,11 @@ nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #3cb35a;
 }
 .homecontainer {
   position: relative;

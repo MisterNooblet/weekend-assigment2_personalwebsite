@@ -1,1 +1,90 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+/* colors and shit */
+.font-regular {
+  font-size: 1.6rem;
+}
+
+.font-double {
+  font-size: 3.2rem;
+}
+.font-huge {
+  font-size: 6rem;
+}
+
+.font-enormous {
+  font-size: 9rem;
+  line-height: 8.5rem;
+}
+
+.bg-dark {
+  background-color: #03012c;
+}
+.bg-light {
+  background-color: #062444;
+}
+.txt-green {
+  color: #3cb35a;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 0 10vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  color: white;
+  z-index: 15;
+}
+nav:after {
+  content: "";
+  background-color: black;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 4.8rem;
+}
+nav ul {
+  display: none;
+  list-style: none;
+  justify-content: center;
+}
+
+nav ul li,
+nav .phone {
+  margin: 2rem;
+}
+
+nav .phone {
+  text-align: end;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
