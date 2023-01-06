@@ -34,3 +34,49 @@
   background-color: red;
   position: absolute;
 }
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr) 2fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  position: relative;
+  text-align: center;
+  z-index: 5;
+  padding-top: 2rem;
+}
+.card:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: -1;
+  opacity: 0.01;
+
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.cardicon {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.cardicon i {
+}
+.cardtitle {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.cardparagraph {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.cardimage {
+  grid-area: 4 / 1 / 5 / 2;
+  background: url("/assets/images/gaming.jpg") center center/cover no-repeat;
+  width: 100%;
+  height: 100%;
+
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}

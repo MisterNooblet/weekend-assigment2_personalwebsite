@@ -314,3 +314,29 @@ nav ul li a {
   background-color: #3cb35a;
   border-color: #3cb35a;
 }
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+
+.cardsleft {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.cardsright {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  grid-area: 1 / 2 / 2 / 3;
+}
