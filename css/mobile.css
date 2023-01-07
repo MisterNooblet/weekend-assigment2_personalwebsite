@@ -9,6 +9,10 @@ html {
   font-weight: 400;
   color: white;
 }
+
+p {
+  padding-bottom: 1rem;
+}
 /* colors and shit */
 .font-regular {
   font-size: 1.6rem;
@@ -195,7 +199,8 @@ nav ul li a {
 }
 
 .pagecontent .image {
-  background: url("/assets/images/face.png") center center/cover no-repeat;
+  background: url("/assets/images/11111.png") center center/cover no-repeat;
+  border-radius: 10px;
 }
 
 .aboutmetext {

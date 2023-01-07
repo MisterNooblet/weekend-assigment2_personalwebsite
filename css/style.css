@@ -205,7 +205,8 @@ nav ul li a:hover {
 }
 
 .pagecontent .image {
-  background: url("/assets/images/face.png") center center/cover no-repeat;
+  background: url("/assets/images/11111.png") center center/cover no-repeat;
+  border-radius: 10px;
 }
 
 .aboutmetext {
