@@ -8,4 +8,6 @@ i've chosen a personal portfolio website.
 
 Using Animations , Transitions , Grid and flex.
 
+!!Buttons are currently non functional!!
+
 https://ar-alittleaboutme.netlify.app/
