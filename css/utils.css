@@ -12,8 +12,18 @@
   background-color: gray;
   position: relative;
 }
+.adv:before {
+  content: 'Advanced';
+  color: black;
+  top: 0;
+  left: 0;
+  height: 1.9rem;
+  width: 75%;
+  background-color: orange;
+  position: absolute;
+}
 .inter:before {
-  content: "Intermediate";
+  content: 'Intermediate';
   color: black;
   top: 0;
   left: 0;
@@ -23,7 +33,7 @@
   position: absolute;
 }
 .beginner:before {
-  content: "Beginner";
+  content: 'Beginner';
   color: black;
   top: 0;
   left: 0;
@@ -33,7 +43,7 @@
   position: absolute;
 }
 .null:before {
-  content: "Null";
+  content: 'Null';
   color: black;
   top: 0;
   left: 0;
@@ -60,11 +70,11 @@
 
 .card:hover {
   box-shadow: 0 0 10px #000;
-  color: #3cb35a;
+  color: #3cb35b;
 }
 
 .card:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   width: 100%;
@@ -79,8 +89,11 @@
 }
 .cardicon {
   grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: space-around;
 }
-.cardicon i {
+.cardicon a {
+  color: white;
 }
 .cardtitle {
   grid-area: 2 / 1 / 3 / 2;
@@ -92,7 +105,7 @@
   grid-area: 4 / 1 / 5 / 2;
   width: 100%;
   height: 100%;
-  background: url("/assets/images/gaming.jpg") center center/cover no-repeat;
+  background: url('/assets/images/gaming.jpg') center center/cover no-repeat;
   border-bottom-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
 }
@@ -100,7 +113,7 @@
   grid-area: 4 / 1 / 5 / 2;
   width: 100%;
   height: 100%;
-  background: url("/assets/images/riding.jpg") center center/cover no-repeat;
+  background: url('/assets/images/riding.jpg') center center/cover no-repeat;
   border-bottom-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
 }
@@ -108,7 +121,7 @@
   grid-area: 4 / 1 / 5 / 2;
   width: 100%;
   height: 100%;
-  background: url("/assets/images/fishing.jpg") center center/cover no-repeat;
+  background: url('/assets/images/fishing.jpg') center center/cover no-repeat;
   border-bottom-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
 }
@@ -116,7 +129,39 @@
   grid-area: 4 / 1 / 5 / 2;
   width: 100%;
   height: 100%;
-  background: url("/assets/images/hiking.jpeg") center center/cover no-repeat;
+  background: url('/assets/images/hiking.jpeg') center center/cover no-repeat;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.cardimageamazon {
+  grid-area: 4 / 1 / 5 / 2;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/images/amazon.jpg') center center/cover no-repeat;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.cardimagedice {
+  grid-area: 4 / 1 / 5 / 2;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/images/dice.jpg') center center/cover no-repeat;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.cardimagetesla {
+  grid-area: 4 / 1 / 5 / 2;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/images/tesla.jpg') center center/cover no-repeat;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.cardimagemine {
+  grid-area: 4 / 1 / 5 / 2;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/images/minecraft.jpg') center center/cover no-repeat;
   border-bottom-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&display=swap');
 
 * {
   padding: 0;
@@ -8,7 +8,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   color: white;
 }
@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
   background-color: #062444;
 }
 .txt-green {
-  color: #3cb35a;
+  color: #3cb35b;
 }
 /* main css */
 nav {
@@ -60,7 +60,7 @@ nav {
   z-index: 15;
 }
 nav:after {
-  content: "";
+  content: '';
   background-color: black;
   opacity: 0.8;
   top: 0;
@@ -99,7 +99,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  border-bottom: 1px solid #3cb35a;
+  border-bottom: 1px solid #3cb35b;
 }
 
 .homecontainer {
@@ -114,13 +114,13 @@ nav ul li a:hover {
 }
 
 .homecontainer:after {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   position: absolute;
-  background: url("/assets/images/hero-bg-2.jpg") center center/cover no-repeat;
+  background: url('/assets/images/hero-bg-2.jpg') center center/cover no-repeat;
   z-index: 0;
   opacity: 0.6;
 }
@@ -171,7 +171,7 @@ nav ul li a:hover {
 }
 
 .titlefront::after {
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   position: absolute;
@@ -181,13 +181,13 @@ nav ul li a:hover {
 }
 
 .titlefront::before {
-  content: "";
+  content: '';
   top: 0;
   left: 20%;
   position: absolute;
   width: 60%;
   height: 4rem;
-  border-bottom: #3cb35a 2px solid;
+  border-bottom: #3cb35b 2px solid;
   z-index: 5;
 }
 
@@ -205,7 +205,7 @@ nav ul li a:hover {
 }
 
 .pagecontent .image {
-  background: url("/assets/images/11111.png") center center/cover no-repeat;
+  background: url('/assets/images/11111.png') center center/cover no-repeat;
   border-radius: 10px;
 }
 
@@ -217,7 +217,7 @@ nav ul li a:hover {
 }
 
 .aboutmetext button {
-  background-color: #3cb35a;
+  background-color: #3cb35b;
   padding: 1rem;
   font-weight: bold;
   border-radius: 1rem;
@@ -284,7 +284,7 @@ nav ul li a:hover {
   position: relative;
 }
 .resumecontent::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 0.8rem;
   width: 0.8rem;
@@ -298,7 +298,7 @@ nav ul li a:hover {
   transition: all 1s ease-in-out;
 }
 .resumecontent::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 200%;
   width: 0.1rem;
@@ -308,7 +308,7 @@ nav ul li a:hover {
   margin-left: 2.5rem;
 }
 .resumecontent.last::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   width: 0.1rem;
@@ -318,9 +318,9 @@ nav ul li a:hover {
   margin-left: 2.5rem;
 }
 .resumecontent:hover:before {
-  content: "";
-  background-color: #3cb35a;
-  border-color: #3cb35a;
+  content: '';
+  background-color: #3cb35b;
+  border-color: #3cb35b;
 }
 
 .cards-container {
@@ -370,7 +370,7 @@ nav ul li a:hover {
 }
 
 .contacticon i::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 5rem;
   height: 5rem;
@@ -384,7 +384,7 @@ nav ul li a:hover {
 }
 
 .contacticon i:hover:after {
-  border: 1px solid #3cb35a;
+  border: 1px solid #3cb35b;
 }
 
 .contactform {
@@ -409,7 +409,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border: 1px solid #3cb35a;
+  border: 1px solid #3cb35b;
 }
 
 footer {
@@ -424,11 +424,11 @@ footer {
   justify-content: center;
 }
 footer:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 60%;
   height: 100%;
   top: 0;
   left: 20vw;
-  border-top: #3cb35a 1px solid;
+  border-top: #3cb35b 1px solid;
 }
